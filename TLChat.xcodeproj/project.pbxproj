@@ -25,13 +25,6 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>2760BCD5BFE7550E5E78E4CC</key>
-		<dict>
-			<key>fileRef</key>
-			<string>880F108D98CF49CA7AADA636</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
 		<key>3B00BB8605E19855BA1B3419</key>
 		<dict>
 			<key>buildActionMask</key>
@@ -67,7 +60,7 @@ fi
 			<key>children</key>
 			<array>
 				<string>C2AF1FA91C6B78F600617D98</string>
-				<string>880F108D98CF49CA7AADA636</string>
+				<string>FC6993772DF4A627D416223C</string>
 			</array>
 			<key>isa</key>
 			<string>PBXGroup</string>
@@ -114,19 +107,6 @@ fi
 			<key>showEnvVarsInLog</key>
 			<string>0</string>
 		</dict>
-		<key>880F108D98CF49CA7AADA636</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>libPods-TLChat.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
 		<key>8CB1A278F62D4A12066C2166</key>
 		<dict>
 			<key>buildActionMask</key>
@@ -150,6 +130,13 @@ fi
 </string>
 			<key>showEnvVarsInLog</key>
 			<string>0</string>
+		</dict>
+		<key>91CDC5765FB435FBF4BE1040</key>
+		<dict>
+			<key>fileRef</key>
+			<string>FC6993772DF4A627D416223C</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
 		</dict>
 		<key>C2028D181C8D1A200060E271</key>
 		<dict>
@@ -800,7 +787,7 @@ fi
 						<key>CreatedOnToolsVersion</key>
 						<string>7.2</string>
 						<key>DevelopmentTeam</key>
-						<string>8ZE6MPGQ6N</string>
+						<string>8C2VY4794F</string>
 					</dict>
 					<key>C2097EFB1C52326500163B5C</key>
 					<dict>
@@ -1155,7 +1142,7 @@ fi
 			<array>
 				<string>C20907451C97ED0700AB87A5</string>
 				<string>C2AF1FAA1C6B78F600617D98</string>
-				<string>2760BCD5BFE7550E5E78E4CC</string>
+				<string>91CDC5765FB435FBF4BE1040</string>
 			</array>
 			<key>isa</key>
 			<string>PBXFrameworksBuildPhase</string>
@@ -1778,6 +1765,8 @@ fi
 				<string>iPhone Developer</string>
 				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
 				<string>iPhone Developer</string>
+				<key>DEVELOPMENT_TEAM</key>
+				<string>8C2VY4794F</string>
 				<key>FRAMEWORK_SEARCH_PATHS</key>
 				<array>
 					<string>$(inherited)</string>
@@ -1792,7 +1781,7 @@ fi
 				<key>LD_RUNPATH_SEARCH_PATHS</key>
 				<string>$(inherited) @executable_path/Frameworks</string>
 				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
-				<string>com.tripleL.TLChat0</string>
+				<string>com.zhiam.chat</string>
 				<key>PRODUCT_NAME</key>
 				<string>$(TARGET_NAME)</string>
 				<key>PROVISIONING_PROFILE</key>
@@ -1821,6 +1810,8 @@ fi
 				<string>iPhone Developer</string>
 				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
 				<string>iPhone Developer</string>
+				<key>DEVELOPMENT_TEAM</key>
+				<string>8C2VY4794F</string>
 				<key>FRAMEWORK_SEARCH_PATHS</key>
 				<array>
 					<string>$(inherited)</string>
@@ -1835,7 +1826,7 @@ fi
 				<key>LD_RUNPATH_SEARCH_PATHS</key>
 				<string>$(inherited) @executable_path/Frameworks</string>
 				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
-				<string>com.tripleL.TLChat0</string>
+				<string>com.zhiam.chat</string>
 				<key>PRODUCT_NAME</key>
 				<string>$(TARGET_NAME)</string>
 				<key>PROVISIONING_PROFILE</key>
@@ -13913,6 +13904,19 @@ fi
 			<string>Pods/Target Support Files/Pods-TLChat/Pods-TLChat.release.xcconfig</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
+		</dict>
+		<key>FC6993772DF4A627D416223C</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>archive.ar</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>libPods-TLChat.a</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
 		</dict>
 	</dict>
 	<key>rootObject</key>
